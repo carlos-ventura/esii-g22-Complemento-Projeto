@@ -43,3 +43,7 @@ Neste caso o argumento seria http://localhost/Covid, relembrar de nao colocar "/
 Para executar a aplicacao no site sera preciso um link do tipo http://localhost/cgi-bin/comp3.sh
 
 Sendo comp3.sh o nome do script
+
+Coverage:
+Type Counters 100%
+Method Counters 75%
