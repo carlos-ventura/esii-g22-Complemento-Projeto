@@ -33,7 +33,7 @@ public class App3 {
 	private List<String> path_names;
 	private List<String> file_names;
 	private List<ArrayList<Elements>> metadata;
-	private String html_start = "<!DOCTYPE html><html><head><style>table {font-family: arial, sans-serif;border-collapse: collapse;width: 100%;}td, th {border: 1px solid #dddddd;text-align: left;padding: 8px;}tr:nth-child(even) {background-color: #dddddd;}</style></head><body><h2>COVID PDF TABEL</h2><table><tr><th>Article title</th><th>Journal name</th><th>Publication year</th><th>Authors</th></tr>";
+	private String html_start = "<!DOCTYPE html><html><head><style>table {font-family: arial, sans-serif;border-collapse: collapse;width: 100%;}td, th {border: 1px solid #dddddd;text-align: left;padding: 8px;}tr:nth-child(even) {background-color: #dddddd;}</style></head><body><h2>COVID PDF TABLE</h2><table><tr><th>Article title</th><th>Journal name</th><th>Publication year</th><th>Authors</th></tr>";
 	private String html_final = "</table></body></html>";
 	private String html;
 
