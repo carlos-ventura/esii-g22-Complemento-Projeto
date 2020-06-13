@@ -45,5 +45,7 @@ Para executar a aplicacao no site sera preciso um link do tipo http://localhost/
 Sendo comp3.sh o nome do script
 
 Coverage:
+
 Type Counters 100%
+
 Method Counters 75%
