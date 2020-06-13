@@ -355,9 +355,9 @@ public class App3 {
 		html += "<tr>";
 		for (int j = 0; j < metadata.get(i).size(); j++) {
 			if (j == 0) {
-				s += "<td>" + "<a href=" + wordpress_url + "//" + file_names.get(i) + ">" + metadata.get(i).get(j)
+				s += "<td>" + "<a href=" + wordpress_url + "/" + file_names.get(i) + ">" + metadata.get(i).get(j)
 						+ "</a></td>";
-				html += "<td>" + "<a href=" + wordpress_url + "//" + file_names.get(i) + ">"
+				html += "<td>" + "<a href=" + wordpress_url + "/" + file_names.get(i) + ">"
 						+ metadata.get(i).get(j) + "</a></td>"; // URL to computer path
 			} else {
 				s += "<td>" + metadata.get(i).get(j) + "</td>";
