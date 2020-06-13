@@ -298,8 +298,8 @@ public class App3 {
 	 */
 	public void writeHtml() throws IOException {
 
-		File f = new File("table.html");
-		BufferedWriter bw = new BufferedWriter(new FileWriter(f));
+		//File f = new File("table.html");
+		//BufferedWriter bw = new BufferedWriter(new FileWriter(f));
 		html = html_start; //start of the html string, includes head style etc
 
 		if (path_names.isEmpty()) { // this list being empty means there's no new pdf file and either there are no pdf files or the info(name and metadata) is on the txt file
@@ -338,9 +338,9 @@ public class App3 {
 
 		}
 		html += html_final;
-		bw.write(html);
+		//bw.write(html);
 		System.out.println(html);
-		bw.close();
+		//bw.close();
 
 	}
 
