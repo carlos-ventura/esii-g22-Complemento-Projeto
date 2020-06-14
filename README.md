@@ -22,11 +22,7 @@ Quando executado outra vez a aplicacao ira obter a metadata atraves do ficheiro 
 
 Ao adicionar novos pdf's estes terao a sua metada gerada pelo "metodo lento", e os pdfs existentes no ficheiro txt da forma "rapida"
 
-Na pasta estarao presentes 2 jars, um deles funcionara no toolbox e outro no dockerhub
-
-Tollbox - comp3ToolBox.jar
-
-Dockerhub - comp3DockerHub.jar 
+Na pasta estara presente o jar
 
 Para executar a aplicacao tera de se executar um script:
 
@@ -55,5 +51,3 @@ Coverage:
 Type Counters 100%
 
 Method Counters 75%
-
-Descrito no codigo alteracoes necessarias para ter um projeto pronto para funcionar em dockerhub vs toolbox
