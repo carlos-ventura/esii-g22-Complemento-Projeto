@@ -194,7 +194,7 @@ public class App3 {
 
 		for (int i = 0; i < listOfFiles.length; i++) { //populate path_names and file_names from the shared folder
 			if (listOfFiles[i].isFile()) {
-				String path = folder_path + "\\" + listOfFiles[i].getName(); //String "\\" -> DockerHub  "/" -> Toolbox
+				String path = folder_path +System.getProperty("file.separator")+ listOfFiles[i].getName(); 
 				path_names.add(path);
 				file_names.add(listOfFiles[i].getName());
 			}
@@ -228,7 +228,7 @@ public class App3 {
 			BufferedReader reader = new BufferedReader(new FileReader("pdfs.txt"));
 			String line = reader.readLine();
 			while (line != null) {
-				String aux = folder_path + "\\" + line.split(":::")[0]; //String "\\" -> DockerHub  "/" -> Toolbox
+				String aux = folder_path + System.getProperty("file.separator") + line.split(":::")[0];
 				if (path_names.contains(aux)) {
 					pdf_meta.put(line.split(":::")[0], line.split(":::")[1]);
 					path_names.remove(aux);
