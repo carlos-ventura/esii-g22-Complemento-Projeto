@@ -30,7 +30,7 @@ java -jar comp3v3.jar /var/www/html/Covid http://localhost/Covid
 
 Na pasta estarao presentes 2 scripts, um deles funcionara no toolbox e outro no dockerhub
 
-Tollbox - comp3ToolBox
+Tollbox - comp3ToolBox.jar
 
 Dockerhub - comp3DockerHub.jar 
 
