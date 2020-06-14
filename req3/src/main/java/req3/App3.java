@@ -219,6 +219,7 @@ public class App3 {
 				line.add(lll);
 			}
 			for (String s : line) {
+				s = s.replaceAll("[á|à|â|ã]", "a").replaceAll("[é|è|ê]", "e").replaceAll("[í|ì|î|ï]", "i").replaceAll("[ó|ò|ô|õ]", "o").replaceAll("[ú|ù|û]", "u").replaceAll("ç", "c");
 				w.write(s);
 			}
 			w.close();
@@ -320,6 +321,7 @@ public class App3 {
 					s += "</tr>" + "\n";
 					meta.add(s); // aux list to put the whole "html" of 1 pdf file
 					FileWriter fw = new FileWriter(pdfN, true); //append previous string to the txt file
+					s = s.replaceAll("[á|à|â|ã]", "a").replaceAll("[é|è|ê]", "e").replaceAll("[í|ì|î|ï]", "i").replaceAll("[ó|ò|ô|õ]", "o").replaceAll("[ú|ù|û]", "u").replaceAll("ç", "c");
 					fw.write(s);
 					fw.close();
 				}
@@ -339,6 +341,7 @@ public class App3 {
 		}
 		html += html_final;
 		//bw.write(html);
+		html = html.replaceAll("[á|à|â|ã]", "a").replaceAll("[é|è|ê]", "e").replaceAll("[í|ì|î|ï]", "i").replaceAll("[ó|ò|ô|õ]", "o").replaceAll("[ú|ù|û]", "u").replaceAll("ç", "c");
 		System.out.println(html);
 		//bw.close();
 
