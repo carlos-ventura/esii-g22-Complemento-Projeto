@@ -55,3 +55,5 @@ Coverage:
 Type Counters 100%
 
 Method Counters 75%
+
+Descrito no codigo alteracoes necessarias para ter um projeto pronto para funcionar em dockerhub vs toolbox
