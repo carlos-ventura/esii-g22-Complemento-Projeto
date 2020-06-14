@@ -24,15 +24,15 @@ Ao adicionar novos pdf's estes terao a sua metada gerada pelo "metodo lento", e 
 
 Para executar a aplicacao tera de se executar um script:
 
-#!/bin/bash 
-
-java -jar comp3v3.jar /var/www/html/Covid http://localhost/Covid
-
-Na pasta estarao presentes 2 scripts, um deles funcionara no toolbox e outro no dockerhub
+Na pasta estarao presentes 2 jars, um deles funcionara no toolbox e outro no dockerhub
 
 Tollbox - comp3ToolBox.jar
 
 Dockerhub - comp3DockerHub.jar 
+
+#!/bin/bash 
+
+java -jar comp3v3.jar /var/www/html/Covid http://localhost/Covid
 
 Em cima esta presente um exemplo de um script
 
