@@ -28,6 +28,12 @@ Para executar a aplicacao tera de se executar um script:
 
 java -jar comp3v3.jar /var/www/html/Covid http://localhost/Covid
 
+Na pasta estarao presentes 2 scripts, um deles funcionara no toolbox e outro no dockerhub
+
+Tollbox - comp3ToolBox
+
+Dockerhub - comp3DockerHub.jar 
+
 Em cima esta presente um exemplo de um script
 
 O primeiro argumento representa o path para onde os pdf's estao presentes no container
