@@ -22,13 +22,13 @@ Quando executado outra vez a aplicacao ira obter a metadata atraves do ficheiro 
 
 Ao adicionar novos pdf's estes terao a sua metada gerada pelo "metodo lento", e os pdfs existentes no ficheiro txt da forma "rapida"
 
-Para executar a aplicacao tera de se executar um script:
-
 Na pasta estarao presentes 2 jars, um deles funcionara no toolbox e outro no dockerhub
 
 Tollbox - comp3ToolBox.jar
 
 Dockerhub - comp3DockerHub.jar 
+
+Para executar a aplicacao tera de se executar um script:
 
 #!/bin/bash 
 
