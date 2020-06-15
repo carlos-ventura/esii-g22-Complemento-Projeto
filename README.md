@@ -1,4 +1,4 @@
-# G22
+# ESII-G22-2020
 
 Carlos Ventura 82488 cdpva@iscte-iul.pt
 
@@ -16,7 +16,7 @@ Guilherme Rodrigues 82487 girse@iscte-iul.pt
 # A completude dos complementos esta descrito nos readme(numero do complemento)
 
 # Erros encontrados
-O site foi gerado a partir do Toolbox, ao tentar correr o site wordpress no Docker Hub, esta aparece muito lento, muito desonfigurado e certas paginas nao funcionam
+O site foi gerado a partir do Toolbox, ao tentar correr o site wordpress no Docker Hub, esta aparece muito lento, muito desconfigurado e certas paginas nao funcionam
 
 Ao tentar correr o site no Toolbox de outra maquina que nao a que criou ocorre um erro de base de dados “Error Establishing a Database Connection”
 
