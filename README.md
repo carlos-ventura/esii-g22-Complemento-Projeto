@@ -31,8 +31,7 @@ Aceder a linha de comandos e colocar-se no path da pasta, apos isto escrever o c
 Caso esteja a aceder pelo Toolbox, devera escrever no browser: 192.168.99.100
 
 Caso esteja a aceder pelo DockerHub, devera escrever no browser: localhost:80, para alem disto devera ir dentro da pasta cgi-bin
-
-editar o ficheiro chamado covid-sci-discoveries.sh, e onde diz "192.168.99.100" substituir por "localhost"
+e editar o ficheiro chamado covid-sci-discoveries.sh, e onde diz "192.168.99.100" substituir por "localhost"
 
 
 
