@@ -22,9 +22,9 @@ Ao tentar correr o site no Toolbox de outra maquina que nao a que criou ocorre u
 
 # Instrucoes de Utilizacao
 
-Ao abrir a pen, encontrarao duas pastas: Execucao e Codigo_Fonte, como dito no nome uma pasta tem o codigo fonte (zip) e a outra pasta tem o necessario para a execucacao do site
+Ao abrir a pen, encontrarao duas pastas: Execucao(zip) e Codigo_Fonte, como dito no nome uma pasta tem o codigo fonte (zip) e a outra pasta tem o necessario para a execucacao do site
 
-Dentro da pasta Execucao estara disponivel 3 pastas: html, cgi-bin e mysql; e 3 ficheiros chamados docker-compose.yml, mysql.tar e wordpressjava.tar 
+Dentro da pasta Execucao(zip) havera uma pasta chamada esii-g22 e dentro desta pasta estara disponivel 3 pastas: html, cgi-bin e mysql; e 3 ficheiros chamados docker-compose.yml, mysql.tar e wordpressjava.tar 
 
 Aconselha-se ao utilizador para criar uma pasta no desktop e colocar, estas 3 pastas e 3 ficheiros referidss anteriormente, dentro
 
