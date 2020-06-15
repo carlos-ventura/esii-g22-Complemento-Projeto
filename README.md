@@ -1,16 +1,16 @@
 # ESII-G22-2020
 
-Carlos Ventura 82488 cdpva@iscte-iul.pt
+Andre Henriques 82203 adsaj@iscte-iul.pt -> Complemento 1
 
-Miguel Figueiredo 82282 mrcfo1@iscte-iul.pt
+Miguel Maior 82229 pmmsm1@iscte-iul.pt -> Complemento 2
 
-Rodrigo Vidigal 82878 rmmvs1@iscte.pt
+Carlos Ventura 82488 cdpva@iscte-iul.pt -> Complemento 3
 
-Andre Henriques 82203 adsaj@iscte-iul.pt
+Guilherme Rodrigues 82487 girse@iscte-iul.pt -> Complemento 4
 
-Miguel Maior 82229 pmmsm1@iscte-iul.pt
+Rodrigo Vidigal 82878 rmmvs1@iscte.pt -> Complemento 5
 
-Guilherme Rodrigues 82487 girse@iscte-iul.pt
+Miguel Figueiredo 82282 mrcfo1@iscte-iul.pt -> Complemento 6
 
 
 # A completude dos complementos esta descrito nos readme(numero do complemento)
