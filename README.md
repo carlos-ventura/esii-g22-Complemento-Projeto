@@ -1,11 +1,17 @@
 # G22
 
 Carlos Ventura 82488 cdpva@iscte-iul.pt
+
 Miguel Figueiredo 82282 mrcfo1@iscte-iul.pt
+
 Rodrigo Vidigal 82878 rmmvs1@iscte.pt
+
 Andre Henriques 82203 adsaj@iscte-iul.pt
+
 Miguel Maior 82229 pmmsm1@iscte-iul.pt
+
 Guilherme Rodrigues 82487 girse@iscte-iul.pt
+
 
 # A nivel do que foi conseguido a nivel de complementos esta descrito nos readme(numero do complemento)
 
