@@ -26,7 +26,7 @@ Ao abrir a pen, encontrarao duas pastas: Execucao e Codigo_Fonte, como dito no n
 
 Dentro da pasta Execucao estara disponivel 3 pastas: html, cgi-bin e mysql; e um ficheiro chamado docker-compose.yml
 
-Aconselha-se ao utilizador para criar uma pasta no desktop e colocar estas 3 pastas referidas anterior dentro
+Aconselha-se ao utilizador para criar uma pasta no desktop e colocar estas 3 pastas referidas anterior e o ficheiro dentro
 
 Ou seja dentro da nova pasta criada deverao ter 3 pastas e um ficheiro
 
