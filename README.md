@@ -15,7 +15,7 @@ Guilherme Rodrigues 82487 girse@iscte-iul.pt
 
 # A nivel do que foi conseguido a nivel de complementos esta descrito nos readme(numero do complemento)
 
-#Erros encontrados
+# Erros encontrados
 O site foi gerado a partir do Toolbox, ao tentar correr o site wordpress no Docker Hub, esta aparece muito lento e muito desconfigurado
 
 # Instrucoes de Utilizacao
