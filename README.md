@@ -17,7 +17,8 @@ Guilherme Rodrigues 82487 girse@iscte-iul.pt
 
 # Erros encontrados
 O site foi gerado a partir do Toolbox, ao tentar correr o site wordpress no Docker Hub, esta aparece muito lento, muito desonfigurado e certas paginas nao funcionam
-Ao tentar correr o site no Toolbox de outra maquina que nao a que criou ocorre um erro de base de dados "“Error Establishing a Database Connection”"
+
+Ao tentar correr o site no Toolbox de outra maquina que nao a que criou ocorre um erro de base de dados “Error Establishing a Database Connection”
 
 # Instrucoes de Utilizacao
 
@@ -36,4 +37,7 @@ e editar o ficheiro chamado covid-sci-discoveries.sh, e onde diz "192.168.99.100
 
 
 
+# Nota
+
+Foi testado a criacao de um site teste a partir do dockerhub e partilhado com outras maquinas e funcinou sem problemas nas maquinas que tinham docker hub
 
