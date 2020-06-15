@@ -1,4 +1,4 @@
-Rodrigo Vidigal da Silva nº 82878 repositorio:https://github.com/VIdigalSilva/covid-queryC5
+Rodrigo Vidigal da Silva nº 82878 
 
 Requisito 5
 
