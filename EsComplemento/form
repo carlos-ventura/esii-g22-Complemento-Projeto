@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID QUERY</title>
+</head>
+<body> 
+	<h2>COVID QUERY</h2>
+   <p>Primeira parcela</p>
+    <FORM METHOD="POST" ACTION="cgi-bin/cgi-java.sh>
+   		 <label for="regiao">Região a selecionar:</label><br>
+       	<select name="regiao" id="regiao"><option value="algarve">Algarve</option><option value="alentejo">Alentejo</option><option value="norte">Norte</option><option value="lisboa">Lisboa</option>
+        <option centro="lisboa">Centro</option></select>
+        <br><br>
+  		<label for="criterio">Critério a selecionar:</label><br>
+        <select name="criterio" id="criterio"><option value="infecoes">Infeções</option><option value="testes">Testes</option><option value="internados">Internados</option></select><br>
+        <br>
+        <label for="num">Numero a comparar:</label><br>
+        <input type="text" id="num" name="num" value="Numero"><br>
+        <label for="rel">Se deseja apenas verificar de uma dada regiao os valores nao selecione esta opção</label>
+<input type="checkbox" id="usarrel" name="usarrel" value="sim"><br><br>
+        <br>
+        <label for="rel">Operador relacional:</label>
+        <select name="rel" id="rel"><option value="equal">=</option><option value="dif">!=</option><option value="maiequal">>=</option></option><option value="menequal"><=</option><option value="men"><</option><option value="maior">></option><br></select><br><label for="usarrel">Usar operador relacional?</label>
+<input type="checkbox" id="usarrel" name="usarrel" value="sim"><br><br>
+  		
+        
+        <label for="rel">Operador Logico:</label><br>
+        <select name="log" id="log"><option value="and">AND</option><option value="or">OR</option><option value="not">NOT</option><br></select><br><label for="usarlog">Usar operador logico?</label>
+<input type="checkbox" id="usarlog" name="usarrel" value="sim"><br><br>
+      
+       
+        
+        <label for="rel">Usar operador Aritmético?</label><br>
+<input type="checkbox" id="testes" name="escolha" value="Soma">
+  		<label for="testes">Soma</label><br>
+        <br>
+        <p>Segunda parcela</p>
+    <form action="QueryCovid" method="choice">
+   		 <label for="regiao">Região a selecionar:</label><br>
+       	<select name="regiao" id="regiao"><option value="algarve">Algarve</option><option value="alentejo">Alentejo</option><option value="norte">Norte</option><option value="lisboa">Lisboa</option>
+        <option centro="lisboa">Centro</option></select>
+        <br><br>
+  		<label for="criterio">Critério a selecionar:</label><br>
+        <select name="criterio" id="criterio"><option value="infecoes">Infeções</option><option value="testes">Testes</option><option value="internados">Internados</option></select><br>
+        <br>
+        <label for="num">Numero a comparar:</label><br>
+        <input type="text" id="num" name="num" value="Numero"><br>
+        <br>
+         <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
