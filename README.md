@@ -24,13 +24,13 @@ Ao tentar correr o site no Toolbox de outra maquina que nao a que criou ocorre u
 
 Ao abrir a pen, encontrarao duas pastas: Execucao e Codigo_Fonte, como dito no nome uma pasta tem o codigo fonte (zip) e a outra pasta tem o necessario para a execucacao do site
 
-Dentro da pasta Execucao estara disponivel 3 pastas: html, cgi-bin e mysql; e um ficheiro chamado docker-compose.yml
+Dentro da pasta Execucao estara disponivel 3 pastas: html, cgi-bin e mysql; e 3 ficheiros chamados docker-compose.yml, mysql.tar e wordpressjava.tar 
 
-Aconselha-se ao utilizador para criar uma pasta no desktop e colocar, estas 3 pastas e o ficheiro referidss anteriormente, dentro
+Aconselha-se ao utilizador para criar uma pasta no desktop e colocar, estas 3 pastas e 3 ficheiros referidss anteriormente, dentro
 
-Ou seja dentro da nova pasta criada deverao ter 3 pastas e um ficheiro
+Ou seja dentro da nova pasta criada deverao ter 3 pastas e 3 ficheiros
 
-Aceder a linha de comandos e colocar-se no path da pasta, apos isto escrever o codigo " docker-compose up -d "
+Aceder a linha de comandos e colocar-se no path da pasta, apos isto escrever o codigo "docker load -i mysql.tar", depois escrever o codigo "docker load -i wordpressjava.tar" e por fim escrever " docker-compose up -d "
 
 Caso esteja a aceder pelo Toolbox, devera escrever no browser: 192.168.99.100
 
