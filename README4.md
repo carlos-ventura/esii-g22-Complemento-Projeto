@@ -37,4 +37,4 @@ Coverage:
 
 Type Counters 100%
 
-Method Counters 78.6%
+Method Counters 78.6% 
