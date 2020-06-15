@@ -1,23 +1,40 @@
-Rodrigo Vidigal da Silva nº 82878 repositorio:https://github.com/VIdigalSilva/covid-queryC5
+# Complemento 4
+82487 Guilherme Rodrigues
 
-Requisito 5
+Requisito 4
 
-No meu projeto fiz dum metodo em que ia adicionando os campos de pesquisa no XPath a uma string e no fim era feita a query de acordo com a string.
-O que não consegui implementar foram o Not por não perceber como o fazer. De resto tinha em intenção utilizar java script para irem aparecendo novos campos mas não me foi possivel devido a falta tempo.
-Por isso as partes que foram parcialmente implementadas foram mais a parte de extender o formulario para abrangir mais campos, que não o fiz por não estar no enunciado por isso decidi assim poupar tempo dado que foi complicado este complemento.
+Neste requisito todos os objetivos foram alcancados:
 
-Para executar esta aplicação basta gerar uma aplicação Java executavel ('cgi-java.jar') que possa ser executada a partir de uma pagina/formulario web.
+Aceder ao ficheiro "covid19spreading.rdf" no Github.
 
-Execução:
-Para executar este complemento tera de ter o jar que esta na pasta e dois scripts shell deste tipo:
-1º:
+Obter todas as versões desse ficheiro com Tags associadas
+
+Criar tabela com 5 colunas e os repetivos conteudos
+
+O programa está preparado para receber argumentos, onde o primeiro será o link do GitHub e o 2º o path no Github para o ficheiro a analisar.
+Este extra feito está implementado mas está em comentário.
+
+Erros que ocurreram e que foram corrigidos/substituidos:
+Tentativa de fazer fetch do GitHub causava longa demora e por vezes crash no eclipse. Optou-se por apagar o Repositorio Local sempre que se executava o programa.
+
+Na pasta estara presente o jar
+
+Para executar a aplicacao tera de se executar um script:
+
 #!/bin/bash
-java -jar cgi-java.jar GET
-2º
-#!/bin/bash
-java -jar cgi-java.jar POST
+chmod -R 777 Git
+rm -rf Git
+java -jar Complement4.jar
 
-Para execução do complemento teremos de executar o primeiro shell script sendo que o segundo sera executado recursivamente.
-Desta forma para executar esse script teremos que adicionar um botão ao wordpress com /cgi-bin/comp3.sh
-Isto irá executar as querys e assim estará efetuado a execução do complemento.
+Em cima esta presente um exemplo de um script
 
+
+Para executar a aplicacao no site sera preciso um link do tipo http://localhost/cgi-bin/Complement4.sh
+
+Sendo Complement4.sh o nome do script
+
+Coverage:
+
+Type Counters 100%
+
+Method Counters 78.6%
