@@ -1,4 +1,4 @@
-82488 Carlos Ventura https://github.com/cdpva-iscteiul/esii-g22-Requirement3 
+82488 Carlos Ventura 
 
 Requisito 3
 
