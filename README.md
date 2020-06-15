@@ -20,7 +20,7 @@ O site foi gerado a partir do Toolbox, ao tentar correr o site wordpress no Dock
 
 # Instrucoes de Utilizacao
 
-Na Pen estara disponivel 3 pastas: html, cgi-bin e mysql; e um ficheiro chamado docker-compose.yml: html, cgi-bin e mysql
+Na Pen estara disponivel 3 pastas: html, cgi-bin e mysql; e um ficheiro chamado docker-compose.yml
 
 Aconselha-se ao utilizador para criar uma pasta no desktop e colocar estas 3 pastas referiadas anterior dentro
 
