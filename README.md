@@ -22,7 +22,9 @@ Ao tentar correr o site no Toolbox de outra maquina que nao a que criou ocorre u
 
 # Instrucoes de Utilizacao
 
-Na Pen estara disponivel 3 pastas: html, cgi-bin e mysql; e um ficheiro chamado docker-compose.yml
+Ao abrir a pen, encontrarao duas pastas: Execucao e Codigo_Fonte, como dito no nome uma pasta tem o codigo fonte (zip) e a outra pasta tem o necessario para a execucacao do site
+
+Dentro da pasta Execucao estara disponivel 3 pastas: html, cgi-bin e mysql; e um ficheiro chamado docker-compose.yml
 
 Aconselha-se ao utilizador para criar uma pasta no desktop e colocar estas 3 pastas referidas anterior dentro
 
