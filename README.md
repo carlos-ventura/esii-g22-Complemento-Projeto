@@ -26,25 +26,24 @@ Na pasta estara presente o jar
 
 Para executar a aplicacao tera de se executar um script:
 
-#!/bin/bash 
-
-java -jar comp3v3.jar /var/www/html/Covid http://localhost/Covid
+#!/bin/bash
+java -jar covid-sci-discoveries.jar /var/www/html/wp-content/uploads/simple-file-list http://localhost/wp-content/uploads/simple-file-list
 
 Em cima esta presente um exemplo de um script
 
 O primeiro argumento representa o path para onde os pdf's estao presentes no container
 
-Exemplo: /var/www/html/Covid Relembrar de nao colocar "/" no final
+Exemplo: /var/www/html/wp-content/uploads/simple-file-list Relembrar de nao colocar "/" no final
 
 O segundo argumento corresponde ao path online do ficheiro pdf, neste caso da PASTA!
 
-Exemplo de localizacao de 1 FICHEIRO: http://localhost/Covid/pdf1.pdf
+Exemplo de localizacao de 1 FICHEIRO: http://localhost/wp-content/uploads/simple-file-list/pdf1.pdf
 
-Neste caso o argumento seria http://localhost/Covid, relembrar de nao colocar "/" no final
+Neste caso o argumento seria http://localhost/wp-content/uploads/simple-file-list, relembrar de nao colocar "/" no final
 
-Para executar a aplicacao no site sera preciso um link do tipo http://localhost/cgi-bin/comp3.sh
+Para executar a aplicacao no site sera preciso um link do tipo http://localhost/cgi-bin/covid-sci-discoveries.sh
 
-Sendo comp3.sh o nome do script
+Sendo covid-sci-discoveries.sh o nome do script
 
 Coverage:
 
